@@ -42,3 +42,8 @@ PercentualFaturamento percentual = new PercentualFaturamento();
 decimal percentualFaturamento = percentual.Calcular("SP");
 
 Console.WriteLine($"Questão 4: O percentual de faturamento do estado de São Paulo foi de {percentualFaturamento.ToString("c")}%");
+
+// Questão 5
+
+String Invertida = StringInvertida.Inverter("Hello World!");
+Console.WriteLine($"Questão 5: {Invertida}");
