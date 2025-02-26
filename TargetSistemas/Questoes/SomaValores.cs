@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TargetSistemas.Questoes;
+
+internal class SomaValores
+{
+    public static int Calcular()
+    {
+        int INDICE = 13, SOMA = 0, K = 0;
+        while (K < INDICE)
+        {
+            K = K + 1;
+            SOMA = SOMA + K;
+        }
+        return SOMA;
+    }
+}
