@@ -37,3 +37,8 @@ foreach (Faturamento dia in diasAcimaDaMedia)
     Console.WriteLine($"Dia {dia.Dia}: {dia.Valor}");
 }
 
+// Questão 4
+PercentualFaturamento percentual = new PercentualFaturamento();
+decimal percentualFaturamento = percentual.Calcular("SP");
+
+Console.WriteLine($"Questão 4: O percentual de faturamento do estado de São Paulo foi de {percentualFaturamento.ToString("c")}%");
